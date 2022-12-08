@@ -4,12 +4,11 @@ const FrontTitle = () => {
     return (
         <div className="flex justify-center items-center h-screen">
             <div class="group">
-                <div className="title-card">
-                    <p className="text-3xl">
-                        De'Ondre Ledet <br/>
-                    </p>
-                    <p className="text-md">
-                        Web Developer
+                <div class="title-card">
+                    <p className='text-center text-xl'>
+                    DRE <br/>
+                  DRX-LABS <br/>
+            WEBSITE DEVELOPMENT
                     </p>
                 </div>
                 <span className='hidden-rex '>
@@ -25,8 +24,10 @@ const FrontTitle = () => {
 
 const HiddenRex = ({ icon }) => (
     <div className='hidden-rex-i group-hover:scale-100 hover:bg-blue-500 transition-all'>
-        <a href=''>{icon}</a>
+        <a id="one" href=''>{icon}</a>
     </div>
 )
+
+
 
 export default FrontTitle
