@@ -12,9 +12,8 @@ const FrontTitle = () => {
                     </p>
                 </div>
                 <span className='hidden-rex '>
-                    <HiddenRex icon="about"/> 
-                    <HiddenRex icon="projects"/> 
-                    <HiddenRex icon="contact"/> 
+                    <HiddenRex icon="ABOUT"/> 
+                    <HiddenRex icon="PROJECTS"/> 
                 </span>
             </div>
         </div>
@@ -23,7 +22,7 @@ const FrontTitle = () => {
 
 
 const HiddenRex = ({ icon }) => (
-    <div className='hidden-rex-i group-hover:scale-100 hover:bg-blue-500 transition-all'>
+    <div className='hidden-rex-i group-hover:scale-100 hover:bg-slate-800 transition-all'>
         <a id="one" href=''>{icon}</a>
     </div>
 )

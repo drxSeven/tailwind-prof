@@ -15,8 +15,9 @@
     } 
 
     .hidden-rex-i {
-        @apply border-solid border-2 border-cyan-700 scale-0 w-40 text-center text-cyan-300
-         px-5 py-2 m-3 rounded-lg transition-all
+        @apply border-solid border-2 border-cyan-700 scale-0 w-52 text-center text-cyan-300 p-5
+          my-7 mx-2 rounded-lg transition-all 
+          text-xl
     }
 
 
